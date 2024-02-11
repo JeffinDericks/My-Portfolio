@@ -621,7 +621,7 @@ html {
 	/* font-size: 18px; */
 }
 
-.project-flex h1{
+.project-flex h1 {
 	color: white;
 }
 
@@ -844,4 +844,14 @@ html {
 .project:hover:after {
 	transition: all .3s;
 	opacity: 1;
+}
+
+.last-mail a span{
+	transition: color 0.3s;
+}
+
+
+.last-mail a span:hover {
+	color: var(--green);
+	transition: color 0.3s;
 }
